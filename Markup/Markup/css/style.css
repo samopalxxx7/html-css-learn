@@ -1,0 +1,804 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+	line-height: 1.15;
+	-webkit-text-size-adjust: 100%;
+	height: 100%;
+}
+
+body {
+	margin: 0;
+}
+
+main {
+	display: block;
+}
+
+h1 {
+	font-size: 2em;
+	margin: 0.67em 0;
+}
+
+hr {
+	box-sizing: content-box;
+	height: 0;
+	overflow: visible;
+}
+
+pre {
+	font-family: monospace;
+	font-size: 1em;
+}
+
+a {
+	background-color: transparent;
+}
+
+abbr[title] {
+	border-bottom: none;
+	text-decoration: underline dotted;
+}
+
+code,
+kbd,
+samp {
+	font-family: monospace;
+	font-size: 1em;
+}
+
+small {
+	font-size: 80%;
+}
+
+sub,
+sup {
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+
+sub {
+	bottom: -0.25em;
+}
+
+sup {
+	top: -0.5em;
+}
+
+img {
+	border-style: none;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+	font-family: inherit;
+	font-size: 100%;
+	line-height: 1.15;
+	margin: 0;
+}
+
+button,
+input {
+	overflow: visible;
+}
+
+button,
+select {
+	text-transform: none;
+}
+
+button,
+[type='button'],
+[type='reset'],
+[type='submit'] {
+	-webkit-appearance: button;
+}
+
+button::-moz-focus-inner,
+[type='button']::-moz-focus-inner,
+[type='reset']::-moz-focus-inner,
+[type='submit']::-moz-focus-inner {
+	border-style: none;
+	padding: 0;
+}
+
+button:-moz-focusring,
+[type='button']:-moz-focusring,
+[type='reset']:-moz-focusring,
+[type='submit']:-moz-focusring {
+	outline: 1px dotted ButtonText;
+}
+
+fieldset {
+	padding: 0.35em 0.75em 0.625em;
+}
+
+legend {
+	box-sizing: border-box;
+	color: inherit;
+	display: table;
+	max-width: 100%;
+	padding: 0;
+	white-space: normal;
+}
+
+progress {
+	vertical-align: baseline;
+}
+
+textarea {
+	overflow: auto;
+}
+
+[type='checkbox'],
+[type='radio'] {
+	box-sizing: border-box;
+	padding: 0;
+}
+
+[type='number']::-webkit-inner-spin-button,
+[type='number']::-webkit-outer-spin-button {
+	height: auto;
+}
+
+[type='search'] {
+	-webkit-appearance: textfield;
+	outline-offset: -2px;
+}
+
+[type='search']::-webkit-search-decoration {
+	-webkit-appearance: none;
+}
+
+::-webkit-file-upload-button {
+	-webkit-appearance: button; /* 1 */
+	font: inherit; /* 2 */
+}
+
+details {
+	display: block;
+}
+
+summary {
+	display: list-item;
+}
+
+template {
+	display: none;
+}
+
+[hidden] {
+	display: none;
+}
+
+body {
+	font-family: "Arial";
+	font-size: 12px;
+	color: #606060;
+	background: #ffffff;
+}
+
+.wrapper-1200 {
+	max-width: 1230px;
+	padding: 0 15px;
+	margin:0 auto;
+}
+
+.header {
+	background-color:#1A1A1A;
+}
+
+.header-wrapper {
+	padding: 20px 0;
+}
+
+.header-wrapper:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+.content {
+	color: #ff0000;
+	font-size: 12rem;
+
+}
+
+.content p {
+	margin:0 0 30px;
+}
+
+.header-logo {
+	margin:0;
+	font-size:45px;
+	font-family:"Century Gothic";
+	color:#FFFFFF;
+	text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.7);
+	float: left;
+}
+
+.header-menu {
+	float: right;
+}
+
+li{
+display:inline-block;
+padding-left:35px;
+font-size:15px;
+font-family:"Century Gothic";
+color:#DEDEDE;
+}
+
+li a{
+text-decoration:none;
+
+}
+
+li a:link{
+color:#DEDEDE;
+}
+
+li a:visited{
+color:#DEDEDE;
+}
+
+li a:hover{
+color:#6FC6E2;
+}
+
+a:active{
+color:#6FC6E2;
+}
+
+#featured{
+height:350px;
+border-top:1px solid #009ED2;
+background-image:url(../images/header2_bg.png);
+position:relative;
+}
+
+#welcome{
+margin:0;
+font-size:50px;
+font-family:"Arial";
+font-weight:bold;
+color:#FFFFFF;
+text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75);
+position:absolute;
+top:50px;
+left:130px;
+}
+
+#paragraph1{
+position:absolute;
+top:120px;
+left:130px;
+width:380px;
+height:160px;
+margin:0;
+color:#FFFFFF;
+font-size:12px;
+font-family:"Arial";
+line-height:2;
+}
+
+#slider_all{
+position:absolute;
+top:55px;
+right:115px;
+}
+
+#middle{
+height:630px;
+position:relative;
+}
+
+#middle_header{
+font-family:"Century Gothic";
+font-size:25px;
+color:#606060; 
+position:absolute;	
+left:130px;
+top:35px;
+margin:0;
+}
+
+#divider_1{
+color:#DEDEDE;
+position:absolute;
+top:95px;
+left:130px;
+}
+
+#button{
+position:absolute;
+top:15px;
+right:130px;
+}
+
+#content_header_1{
+font-family:"Century Gothic";
+font-size:22px;
+color:#606060; 
+position:absolute;	
+left:130px;
+top:135px;
+margin:0;
+}
+
+#paragraph2{
+position:absolute;
+top:165px;
+left:130px;
+width:600px;
+height:150px;
+margin:0;
+color:#606060;
+font-size:12px;
+font-family:"Arial";
+line-height:2;
+}
+
+#content_header_2{
+font-family:"Century Gothic";
+font-size:22px;
+color:#606060; 
+position:absolute;font-family:"Century Gothic";
+font-size:22px;
+color:#606060; 
+position:absolute;	
+right:245px;
+top:135px;
+margin:0;
+right:245px;
+top:135px;
+margin:0;
+}
+
+#paragraph3{
+position:absolute;
+top:165px;
+right:130px;
+width:305px;
+height:105px;
+margin:0;
+color:#606060;
+font-size:12px;
+font-family:"Arial";
+line-height:2;
+font-style:italic;
+}
+
+#signature{
+text-align:right;
+font-weight:bold;
+color:#606060;
+/*перенести подпись*/
+}
+
+#divider_2{
+width:940px;
+size:1px;
+color:#DEDEDE;
+position:absolute;
+top:350px;
+left:130px;
+}
+
+#box_1{
+width:288px;
+height:58px;
+background-color:#EEEEEE;
+border:5px solid #FFFFFF;
+outline:1px solid #DEDEDE;
+position:absolute;	
+left:130px;
+bottom:180px;
+margin:0;
+}
+
+#image_1{
+font-family:"Arial";
+font-size:14px;
+color:#8D8D8D; 
+position:absolute;	
+left:80px;
+top:25px;
+margin:0;
+}
+
+#title_box_1{
+font-family:"Century Gothic";
+font-size:16px;
+color:#606060; 
+position:absolute;	
+left:130px;
+bottom:145px;
+margin:0;
+}
+
+#text_box_1{
+position:absolute;
+bottom:70px;
+left:130px;
+width:290px;
+height:60px;
+line-height:2;
+margin:0;
+}
+
+#box_2{
+width:288px;
+height:58px;
+background-color:#EEEEEE;
+border:5px solid #FFFFFF;
+outline:1px solid #DEDEDE;
+position:absolute;	
+left:450px;
+bottom:180px;
+margin:0;
+}
+
+#image_2{
+font-family:"Arial";
+font-size:14px;
+color:#8D8D8D; 
+position:absolute;	
+left:80px;
+top:25px;
+margin:0;
+}
+
+#title_box_2{
+font-family:"Century Gothic";
+font-size:16px;
+color:#606060; 
+position:absolute;	
+left:450px;
+bottom:145px;
+margin:0;
+}
+
+#text_box_2{
+position:absolute;
+bottom:70px;
+left:450px;
+width:290px;
+height:60px;
+line-height:2;
+margin:0;
+}
+
+#box_3{
+width:288px;
+height:58px;
+background-color:#EEEEEE;
+border:5px solid #FFFFFF;
+outline:1px solid #DEDEDE;
+position:absolute;	
+left:770px;
+bottom:180px;
+margin:0;
+}
+
+#image_3{
+font-family:"Arial";
+font-size:14px;
+color:#8D8D8D; 
+position:absolute;	
+left:80px;
+top:25px;
+margin:0;
+}
+
+#title_box_3{
+font-family:"Century Gothic";
+font-size:16px;
+color:#606060; 
+position:absolute;	
+left:770px;
+bottom:145px;
+margin:0;
+}
+
+#text_box_3{
+position:absolute;
+bottom:70px;
+left:770px;
+width:290px;
+height:60px;
+line-height:2;
+margin:0;
+}
+
+#footer{
+height:300px;
+background-color:#1A1A1A;
+position:relative;
+border-bottom:1px solid #8D8D8D;
+}
+
+#catagories{
+font-family:"Century Gothic";
+font-size:14px;
+color:#8D8D8D; 
+position:absolute;
+left:130px;
+top:35px;
+margin:0;
+}
+
+#divider_catagories_1{
+color:#434343;
+position:absolute;
+top:65px;
+left:130px;
+margin:0;
+}
+
+#HTML_CSS{
+font-family:"Arial";
+font-size:12px;
+color:#8D8D8D; 
+position:absolute;	
+left:130px;
+top:75px;
+margin:0;
+}
+
+#divider_catagories_2{
+color:#434343;
+position:absolute;
+top:100px;
+left:130px;
+margin:0;
+}
+
+#Javascript{
+font-family:"Arial";
+font-size:12px;
+color:#8D8D8D; 
+position:absolute;	
+left:130px;
+top:110px;
+margin:0;
+}
+
+#divider_catagories_3{
+color:#434343;
+position:absolute;
+top:135px;
+left:130px;
+margin:0;
+}
+
+#News{
+font-family:"Arial";
+font-size:12px;
+color:#8D8D8D; 
+position:absolute;	
+left:130px;
+top:145px;
+margin:0;
+}
+
+#divider_catagories_4{
+color:#434343;
+position:absolute;
+top:170px;
+left:130px;
+margin:0;
+}
+
+#Web_Design{
+font-family:"Arial";
+font-size:12px;
+color:#8D8D8D; 
+position:absolute;	
+left:130px;
+top:180px;
+margin:0;
+}
+
+#divider_catagories_5{
+color:#434343;
+position:absolute;
+top:205px;
+left:130px;
+margin:0;
+}
+
+#Archives{
+font-family:"Century Gothic";
+font-size:14px;
+color:#8D8D8D; 
+position:absolute;	
+left:370px;
+top:35px;
+margin:0;
+}
+
+#divider_catagories_6{
+color:#434343;
+position:absolute;
+top:65px;
+left:370px;
+margin:0;
+}
+
+#August_2010{
+font-family:"Arial";
+font-size:12px;
+color:#8D8D8D; 
+position:absolute;	
+left:370px;
+top:75px;
+margin:0;
+}
+
+#divider_catagories_7{
+color:#434343;
+position:absolute;
+top:100px;
+left:370px;
+margin:0;
+}
+
+#July_2010{
+font-family:"Arial";
+font-size:12px;
+color:#8D8D8D; 
+position:absolute;	
+left:370px;
+top:110px;
+margin:0;
+}
+
+#divider_catagories_8{
+color:#434343;
+position:absolute;
+top:135px;
+left:370px;
+margin:0;
+}
+
+#Social_Media{
+font-family:"Century Gothic";
+font-size:14px;
+color:#8D8D8D; 
+position:absolute;	
+left:610px;
+top:35px;
+margin:0;
+}
+
+#divider_catagories_9{
+color:#434343;
+position:absolute;
+top:65px;
+left:610px;
+margin:0;
+}
+
+#Twitter{
+font-family:"Arial";
+font-size:12px;
+color:#8D8D8D; 
+position:absolute;	
+left:610px;
+top:75px;
+margin:0;
+}
+
+#divider_catagories_10{
+color:#434343;
+position:absolute;
+top:100px;
+left:610px;
+margin:0;
+}
+
+#Facebook{
+font-family:"Arial";
+font-size:12px;
+color:#8D8D8D; 
+position:absolute;	
+left:610px;
+top:110px;
+margin:0;
+}
+
+#divider_catagories_11{
+color:#434343;
+position:absolute;
+top:135px;
+left:610px;
+margin:0;
+}
+
+#Youtube{
+font-family:"Arial";
+font-size:12px;
+color:#8D8D8D; 
+position:absolute;	
+left:610px;
+top:145px;
+margin:0;
+}
+
+#divider_catagories_12{
+color:#434343;
+position:absolute;
+top:170px;
+left:610px;
+margin:0;
+}
+
+#Get_in_Touch{
+font-family:"Century Gothic";
+font-size:14px;
+color:#8D8D8D; 
+position:absolute;	
+left:850px;
+top:35px;
+margin:0;
+}
+
+#divider_catagories_13{
+color:#434343;
+position:absolute;
+top:65px;
+left:850px;
+margin:0;
+}
+
+#contact{
+line-height:2;
+font-family:"Arial";
+font-size:12px;
+color:#8D8D8D; 
+position:absolute;	
+left:850px;
+top:75px;
+margin:0;
+}
+
+a:link{
+color:#00759F;
+}
+
+a:visited{
+color:#00759F;
+}
+
+a:hover{
+color:#00759F;
+}
+
+a:active{
+color:#00759F;
+}
+
+#footer2{
+height:75px;
+background-color:#0A0A0A;
+position:relative;
+}
+
+#copyright{
+font-family:"Arial";
+font-size:12px;
+color:#8D8D8D; 
+position:absolute;	
+left:130px;
+top:35px;
+margin:0;
+}
